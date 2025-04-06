@@ -12,6 +12,12 @@ npm run install-all
 npm run dev
 ```
 
+3. To check linting errors:
+
+```
+npm run lint
+```
+
 This will start:
 
-- The client on http://localhost:5174 (default Vite port)
+- The client on (default Vite port)
