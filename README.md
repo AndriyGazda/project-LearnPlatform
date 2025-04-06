@@ -14,6 +14,4 @@ npm run dev
 
 This will start:
 
-- The server on http://localhost:5000 (or the port specified in your server .env
-  file)
-- The client on http://localhost:5173 (default Vite port)
+- The client on http://localhost:5174 (default Vite port)
