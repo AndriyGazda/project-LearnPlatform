@@ -68,12 +68,10 @@ To receive submissions, update the action attribute in the contact.html file:
 
 <form action="https://formsubmit.co/your-email@example.com" method="POST">
 
-🛠️ Технології
+🛠️ Technologies
 
 🧱 HTML5
 
 🎨 CSS3
 
 ⚙️ JavaScript (Vanilla)
-
-📩 FormSubmit (для надсилання форми)
