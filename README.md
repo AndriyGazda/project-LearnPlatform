@@ -18,6 +18,12 @@ npm run dev
 npm run lint
 ```
 
+4. To format your code, run the following command:
+
+```
+npm run format
+```
+
 This will start:
 
 - The client on http://localhost:5174 (default Vite port)
