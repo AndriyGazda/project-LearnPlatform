@@ -1,0 +1,112 @@
+//----------------------MENU
+
+$menu-gap: 2rem;
+$logo-width: 10rem;
+$nav-item-font-size: 2rem;
+$sub-menu-bg: rgb(249 249 249 / 75%);
+$sub-menu-border: #3a3c4078;
+$sub-menu-hover-bg: #928dd2;
+$nav-item-hover-color: #e5e3fc;
+$arrow-color: #292929;
+$arrow-hover-color: #e5e3fc;
+
+//-------------------------FOOTER
+
+$footer-bg-color: #f5f5f5c2;
+$footer-item-font-size: 2rem;
+$footer-item-hover-bg: #766aff;
+$footer-logo-width: 10rem;
+$footer-padding: 3rem;
+$footer-margin-top: 10rem;
+
+//----------------------MAIN STYLE
+
+$primary-gradient: linear-gradient(180deg, #a9c9ff 0%, #ffbbec 100%);
+$body-bg-color: #a9c9ff;
+$body-bg-gradient: linear-gradient(180deg, #a9c9ff 0%, #ffbbec 100%);
+$main-font: 'Space Grotesk', sans-serif;
+$heading-font: 'Inter', sans-serif;
+
+$container-max-width: 1198px;
+$container-padding: 24px;
+$container-margin: 0 auto;
+
+$detail-info-bg-color: #ffffff88;
+$detail-info-border-radius: 1.5rem;
+$detail-info-font-size: 1.7rem;
+$detail-info-padding: 2rem;
+
+//---------------------CAROUSEL
+
+$card-width: var(--card-width);
+$cards-gap: var(--cards-gap);
+$cards-items-per-view: var(--cards-items-per-view);
+
+@media (max-width: 600px) {
+  $card-width: var(--card-width);
+  $cards-gap: var(--cards-gap);
+  $cards-items-per-view: var(--cards-items-per-view);
+}
+
+$bg-light: #f5f5f5;
+$bg-gradient: linear-gradient(to right, #4776e6 0%, #8e54e9 51%, #4776e6 100%);
+$text-color-light: white;
+
+$arrow-size: 42px;
+$box-shadow:
+  0 2px 4px #26262629,
+  0 0 1px #2626260a;
+
+$transition: 0.25s ease-in-out;
+
+//---------------------COURSESS
+
+$input-padding: 10px;
+$input-font-size: 1rem;
+$input-border: 1px solid #ddd;
+$input-radius: 5px;
+$input-width: 400px;
+
+$pagination-bg: #f0f0f0;
+$pagination-hover: #ddd;
+$pagination-disabled: #ccc;
+
+//---------------------COURSE
+
+$max-width-container: 980px;
+$main-padding: 3rem;
+$border-color-light: #3a3c4078;
+$bg-glass: #ffffff5c;
+$box-shadow-card: 0 0 20px #947575;
+$bg-topic: #f5f5f5;
+$topic-border: #785ee8;
+$topic-hover-bg: rgb(88 109 231 / 53%);
+$btn-gradient: linear-gradient(to right, #4776e6 0%, #8e54e9 51%, #4776e6 100%);
+$btn-shadow: 0 0 20px #eee;
+
+//---------------------CONTACT
+$form-width: 27rem;
+$form-padding: 2rem;
+$form-radius: 1rem;
+$form-gap: 0.5rem;
+$form-input-height: 3.5rem;
+$form-textarea-height: 100px;
+$contact-max-width: 80%;
+$map-width: 32rem;
+$contact-margin-top: 2.3rem;
+
+$white-bg-opacity: #ffffff88;
+$white-bg-solid: #ffffffc9;
+$form-border-color: #3a3c4078;
+$form-focus-border: rgb(36, 71, 198);
+$form-border: rgb(82 113 230);
+$primary-gradient: linear-gradient(
+  to right,
+  #4776e6 0%,
+  #8e54e9 51%,
+  #4776e6 100%
+);
+$white: #fff;
+
+$box-shadow-form-btn: 0 0 20px #eee;
+$transition-ease: 0.25s ease-in-out;

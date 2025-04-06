@@ -1,0 +1,74 @@
+@use 'variables' as var;
+@use 'mixins' as *;
+
+#footer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  margin-top: var.$footer-margin-top;
+  padding: 0 var.$footer-padding;
+
+  background-color: var.$footer-bg-color;
+  border-radius: 2rem 2rem 0 0;
+
+  .footer-logo-href {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 95%;
+    flex-wrap: wrap;
+
+    .logo img {
+      width: var.$footer-logo-width;
+      height: auto;
+      max-width: 100%;
+    }
+  }
+
+  & p {
+    margin: 0 0 2rem;
+  }
+}
+
+.footer-item {
+  @include footer-item-style;
+}
+
+// Media Queries for Responsiveness
+
+// ----------- Tablet (600px to 1024px) -----------
+@media (min-width: 600px) and (max-width: 1024px) {
+  #footer {
+    padding: 2rem;
+  }
+
+  .footer-logo-href {
+    width: 90%;
+  }
+
+  .footer-item {
+    width: auto;
+    margin-top: 1rem;
+  }
+}
+
+// ----------- Mobile (up to 600px) -----------
+@media (max-width: 600px) {
+  #footer {
+    padding: 1rem;
+  }
+
+  .footer-logo-href {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+  }
+
+  .footer-item {
+    width: 100%;
+    text-align: center;
+    margin-top: 1rem;
+  }
+}

@@ -1,0 +1,88 @@
+@use 'variables' as var;
+@use 'mixins' as *;
+
+#menu {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+
+  .logo img {
+    width: var.$logo-width;
+    height: auto;
+  }
+}
+
+.nav-container {
+  display: flex;
+  gap: var.$menu-gap;
+  margin-right: 4rem;
+
+  .nav_item {
+    @include nav-item-style;
+
+    .sub-menu {
+      @include sub-menu-style;
+    }
+  }
+}
+
+.nav-menu-has-children::after {
+  @include nav-arrow-style;
+}
+
+.nav-menu-has-children:hover::after {
+  border-width: 0 3px 6px 3px;
+  border-color: transparent transparent var.$arrow-hover-color transparent;
+}
+
+// Media Queries for Responsiveness
+
+// Tablet (600px to 1024px)
+@media (min-width: 600px) and (max-width: 1024px) {
+  #menu {
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  .nav-container {
+    flex-direction: row;
+    gap: 1.5rem;
+  }
+
+  .nav_item {
+    font-size: 1.3rem;
+  }
+
+  .nav-menu-has-children::after {
+    display: block;
+  }
+}
+
+// Mobile (up to 600px)
+@media (max-width: 600px) {
+  #menu {
+    flex-direction: column;
+    align-items: center;
+    padding: 1rem;
+  }
+
+  .nav-container {
+    flex-direction: column;
+    align-items: center;
+    gap: 0.6rem;
+    margin-right: 0;
+  }
+
+  .nav_item {
+    margin-bottom: 0rem;
+    border-bottom: 1px solid;
+    & a {
+      font-size: 1.5rem;
+    }
+  }
+
+  .nav-menu-has-children::after {
+    display: none; // Приховуємо стрілку на мобільних
+  }
+}

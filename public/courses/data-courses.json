@@ -1,0 +1,257 @@
+[
+  {
+    "id": 1,
+    "name": "Basics of Programming",
+    "img": "/courses/img/baseProgram.jpg",
+    "description": "A course for beginners that covers basic programming concepts, including working with variables, conditional statements, loops, and basic data structures. Perfect for those just starting their journey in programming.",
+    "difficulty": 6,
+    "instructor": "Oleksandr Ivanenko",
+    "topics": [
+      "Variables",
+      "Data Types",
+      "Conditional Statements",
+      "Loops",
+      "Functions",
+      "Arrays",
+      "Basic Algorithms"
+    ],
+    "duration": "6 weeks"
+  },
+  {
+    "id": 2,
+    "name": "Web Development with HTML and CSS",
+    "img": "/courses/img/html-css.jpg",
+    "description": "A detailed course on the basics of web development, covering creating and styling web pages using HTML and CSS. You will learn how to use semantic tags, style elements with CSS, work with fonts, colors, and layouts.",
+    "difficulty": 4,
+    "instructor": "Marina Petrenko",
+    "topics": [
+      "HTML Structure",
+      "Semantic Tags",
+      "CSS Selectors",
+      "Fonts and Colors",
+      "Flexbox",
+      "Grid",
+      "Responsive Layout"
+    ],
+    "duration": "5 weeks"
+  },
+  {
+    "id": 3,
+    "name": "JavaScript for Beginners",
+    "img": "/courses/img/javascript.jpg",
+    "description": "This course will help you understand the basics of JavaScript, learn to work with variables, functions, objects, and events. You will discover how to create interactive web pages and work with the DOM.",
+    "difficulty": 5,
+    "instructor": "Volodymyr Sydorenko",
+    "topics": [
+      "Syntax Basics",
+      "Variables and Data Types",
+      "Functions",
+      "Arrays and Objects",
+      "Loops and Conditions",
+      "Working with DOM",
+      "Events"
+    ],
+    "duration": "6 weeks"
+  },
+  {
+    "id": 4,
+    "name": "React Development",
+    "img": "/courses/img/react.jpg",
+    "description": "This course is dedicated to learning the React library for building modern web applications. You will learn how to work with components, state, hooks, routing, and manage state using Redux.",
+    "difficulty": 6,
+    "instructor": "Iryna Kovalenko",
+    "topics": [
+      "Components",
+      "JSX",
+      "Props and State",
+      "Component Lifecycle",
+      "Hooks",
+      "React Router",
+      "Redux"
+    ],
+    "duration": "7 weeks"
+  },
+  {
+    "id": 5,
+    "name": "Basics of Git and GitHub",
+    "img": "/courses/img/gitAndGithub.jpg",
+    "description": "Master the basics of working with Git, the most popular version control system. You will learn how to create repositories, commit changes, work with branches, and collaborate using GitHub.",
+    "difficulty": 4,
+    "instructor": "Andriy Lysenko",
+    "topics": [
+      "Initializing Repositories",
+      "Commits and History",
+      "Branches and Merging",
+      "Remote Repositories",
+      "Pull Requests",
+      "GitHub Actions"
+    ],
+    "duration": "4 weeks"
+  },
+  {
+    "id": 6,
+    "name": "Algorithms and Data Structures",
+    "img": "/courses/img/algor.jpg",
+    "description": "A course for those who want to learn how to effectively use algorithms and data structures to solve complex programming problems.",
+    "difficulty": 7,
+    "instructor": "Mykhailo Andriyienko",
+    "topics": [
+      "Sorting",
+      "Search",
+      "Recursion",
+      "Trees",
+      "Graphs",
+      "Hash Tables",
+      "Dynamic Programming"
+    ],
+    "duration": "8 weeks"
+  },
+  {
+    "id": 7,
+    "name": "Python Programming",
+    "img": "/courses/img/python.jpg",
+    "description": "Basics of programming in Python. You will learn how to write clean, efficient code and use Python for various areas, including web development and data analysis.",
+    "difficulty": 5,
+    "instructor": "Olha Myronenko",
+    "topics": [
+      "Python Syntax",
+      "Functions",
+      "Classes and Objects",
+      "File System",
+      "Exception Handling",
+      "NumPy and Pandas Libraries"
+    ],
+    "duration": "6 weeks"
+  },
+  {
+    "id": 8,
+    "name": "Node.js Development",
+    "img": "/courses/img/node.jpg",
+    "description": "This course covers the basics of developing server-side applications using Node.js. You will learn to work with Express, handle HTTP requests, and create APIs.",
+    "difficulty": 6,
+    "instructor": "Ihor Yaremchuk",
+    "topics": [
+      "Basics of Node.js",
+      "Express.js",
+      "Creating APIs",
+      "Working with Databases",
+      "Handling HTTP Requests",
+      "Sessions and Authentication"
+    ],
+    "duration": "7 weeks"
+  },
+  {
+    "id": 9,
+    "name": "Basics of Machine Learning",
+    "img": "/courses/img/machineLear.jpg",
+    "description": "An introduction to machine learning and the basics of algorithms such as regression, classification, and neural networks. The course also covers using Python libraries for ML, such as scikit-learn.",
+    "difficulty": 8,
+    "instructor": "Dmytro Romanenko",
+    "topics": [
+      "Types of Machine Learning",
+      "Linear Regression",
+      "Classification",
+      "Neural Networks",
+      "Data Processing",
+      "Modeling and Evaluation"
+    ],
+    "duration": "9 weeks"
+  },
+  {
+    "id": 10,
+    "name": "Vue.js Development",
+    "img": "/courses/img/vue.jpg",
+    "description": "Basics of Vue.js development for building interactive web interfaces. You will learn how to create components, work with Vue Router, Vuex, and other features of this framework.",
+    "difficulty": 6,
+    "instructor": "Tetiana Bondarenko",
+    "topics": [
+      "Basics of Vue.js",
+      "Vue Router",
+      "Vuex",
+      "Components and Props",
+      "Reactivity",
+      "Working with API"
+    ],
+    "duration": "7 weeks"
+  },
+  {
+    "id": 11,
+    "name": "CSS Flexbox and Grid",
+    "img": "/courses/img/gridAndFlex.jpg",
+    "description": "Learning modern methods of positioning elements on a page using Flexbox and Grid. This course will help you create flexible, responsive layouts for various devices.",
+    "difficulty": 3,
+    "instructor": "Victoria Lytvynova",
+    "topics": [
+      "Basics of Flexbox",
+      "Grid Layout",
+      "Responsiveness with Flexbox",
+      "Modern Layout Techniques",
+      "Multimedia Components"
+    ],
+    "duration": "4 weeks"
+  },
+  {
+    "id": 12,
+    "name": "Web Application Security",
+    "img": "/courses/img/security.jpg",
+    "description": "Basics of web application security and protection against attacks such as XSS, CSRF, SQL Injection, and others. You will learn how to build secure web applications.",
+    "difficulty": 7,
+    "instructor": "Maxym Koval",
+    "topics": [
+      "Basics of Web Application Security",
+      "XSS and CSRF",
+      "SQL Injection",
+      "Encryption and Authentication",
+      "Security in Node.js"
+    ],
+    "duration": "8 weeks"
+  },
+  {
+    "id": 13,
+    "name": "Internet of Things (IoT)",
+    "img": "/courses/img/iot.jpg",
+    "description": "Basics of creating devices for the Internet of Things (IoT). You will learn how to work with various sensors, microcontrollers, and connect devices to networks.",
+    "difficulty": 6,
+    "instructor": "Serhiy Husev",
+    "topics": [
+      "Basics of IoT",
+      "Microcontrollers",
+      "Working with Sensors",
+      "IoT Networks",
+      "IoT Security"
+    ],
+    "duration": "7 weeks"
+  },
+  {
+    "id": 14,
+    "name": "Web Design",
+    "img": "/courses/img/webDesi.jpg",
+    "description": "Basics of web page design and creating graphic elements. You will learn how to use modern tools to create interfaces and improve user experience.",
+    "difficulty": 5,
+    "instructor": "Oleksiy Savchenko",
+    "topics": [
+      "Basics of Graphic Design",
+      "UI/UX Principles",
+      "Design Tools",
+      "Prototyping",
+      "Color and Fonts"
+    ],
+    "duration": "6 weeks"
+  },
+  {
+    "id": 15,
+    "name": "Database Basics",
+    "img": "/courses/img/sql.jpg",
+    "description": "A course on the basics of working with databases and SQL. You will learn how to create and manage databases, perform queries, and work with tables.",
+    "difficulty": 5,
+    "instructor": "Roman Boyko",
+    "topics": [
+      "Basics of Databases",
+      "SQL Queries",
+      "Normalization",
+      "Indexes and Joins",
+      "Query Optimization"
+    ],
+    "duration": "6 weeks"
+  }
+]

@@ -1,0 +1,115 @@
+@use 'variables' as var;
+@use 'mixins' as *;
+
+#title-course-info {
+  font-size: 1.9rem;
+  text-align: center;
+}
+
+#cardBackNext {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  width: 100%;
+  padding: 0 24px;
+}
+
+#card-courses {
+  position: relative;
+}
+
+#back,
+#next {
+  @include arrow-button;
+}
+
+#back {
+  left: 0;
+  transform: translate(-50%, -50%);
+  &:hover {
+    transform: translate(-50%, -50%) scale(1.2);
+  }
+}
+
+#next {
+  right: 0;
+  transform: translate(50%, -50%);
+  &:hover {
+    transform: translate(50%, -50%) scale(1.2);
+  }
+}
+.card-courses-container {
+  overflow: hidden;
+}
+
+#card-courses {
+  height: 400px;
+  width: 100%;
+}
+
+#card-list {
+  height: 100%;
+  display: flex;
+  transition: transform 0.5s ease-in-out;
+}
+
+.slide {
+  min-width: 100%;
+  display: grid;
+  grid-template-columns: repeat(var.$cards-items-per-view, 1fr);
+  gap: var.$cards-gap;
+}
+
+.card {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  border-radius: 16px;
+  max-height: 400px;
+  overflow: hidden;
+  border: 1px solid #3a3c4078;
+
+  .slide-course-img {
+    width: 100%;
+    flex: 1;
+    min-height: 0;
+    min-width: 0;
+    object-fit: cover;
+  }
+
+  &:hover {
+    #more-info {
+      background-position: right center;
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+
+  h2 {
+    text-align: center;
+    padding: 12px;
+    background-color: var.$bg-light;
+  }
+}
+
+#more-info {
+  background-image: var.$bg-gradient;
+  padding: 15px 45px;
+  text-align: center;
+  text-transform: uppercase;
+  transition:
+    background-position 0.5s ease-in,
+    opacity var.$transition,
+    transform var.$transition;
+  background-size: 200% auto;
+  color: var.$text-color-light;
+  box-shadow: 0 0 20px #eee;
+  border-radius: 10px;
+  display: block;
+  position: absolute;
+  bottom: 20px;
+  width: 90%;
+  left: 5%;
+  opacity: 0;
+  transform: translateY(20%);
+}

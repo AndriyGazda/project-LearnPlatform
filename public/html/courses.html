@@ -1,0 +1,48 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>COURSES</title>
+  </head>
+  <body>
+    <div class="container">
+      <header id="menu-container"></header>
+
+      <div id="card-courses" style="flex: 1">
+        <div class="search-container">
+          <input
+            type="text"
+            id="search-input"
+            placeholder="Searching for the course..."
+          />
+        </div>
+
+        <div class="filters-container">
+          <select id="sort-select">
+            <option value="difficulty">Sort by difficulty</option>
+            <option value="name">Sort by name</option>
+          </select>
+
+          <select id="filter-select">
+            <option value="all">Course duration</option>
+            <option value="category1">Up to 5 weeks</option>
+            <option value="category2">From 5 to 9 weeks</option>
+          </select>
+        </div>
+
+        <div id="card-list" class="courses"></div>
+
+        <div id="pagination" class="pagination"></div>
+      </div>
+
+      <footer id="footer-container"></footer>
+    </div>
+
+    <script type="module" src="/src/js/styles.js"></script>
+    <script type="module" src="/src/js/menu.js"></script>
+    <script type="module" src="/src/js/courses-sort-filter-pagin.js"></script>
+
+    <script type="module" src="/src/js/footer.js"></script>
+  </body>
+</html>

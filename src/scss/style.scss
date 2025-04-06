@@ -1,0 +1,30 @@
+@use 'menu';
+@use 'home';
+@use 'carousel';
+@use 'courses';
+@use 'course';
+@use 'contact';
+@use 'footer';
+
+@use 'variables' as var;
+@use 'mixins' as *;
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Space+Grotesk:wght@300..700&display=swap');
+
+html {
+  font-size: 12px;
+  min-height: 100vh;
+}
+
+body {
+  height: 100%;
+  background-color: var.$body-bg-color;
+  background-image: var.$body-bg-gradient;
+}
+
+* {
+  @include reset-global-styles;
+}
+
+.container {
+  @include container-style;
+}
