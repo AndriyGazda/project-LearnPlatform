@@ -13,3 +13,41 @@
 .detal-info {
   @include detail-info-style;
 }
+
+// Media Queries
+// ===================
+
+// Tablet (600px до 1024px)
+@media (min-width: 600px) and (max-width: 1024px) {
+  #main-container {
+    padding: 0 2rem;
+    gap: 30px;
+
+    margin-top: 25px;
+  }
+
+  .detal-info {
+    font-size: 1.4rem;
+    padding: 1.5rem;
+  }
+}
+
+// Mobile (до 600px)
+@media (max-width: 600px) {
+  #main-container {
+    padding: 0 1rem;
+    gap: 20px;
+    margin-top: 20px;
+  }
+
+  .detal-info {
+    max-width: 400px;
+    margin: 0;
+    font-size: 0.9rem;
+    padding: 1rem;
+  }
+
+  #footer {
+    margin: 0;
+  }
+}

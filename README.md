@@ -1,12 +1,12 @@
 ## Installation & Running the Application
 
-1. Install dependencies for the root, server, and client:
+1. Install dependencies:
 
 ```
-npm run install-all
+npm run install
 ```
 
-2. To run both the client and server concurrently in development mode:
+2. To run the client in development mode:
 
 ```
 npm run dev
@@ -20,4 +20,4 @@ npm run lint
 
 This will start:
 
-- The client on (default Vite port)
+- The client on http://localhost:5174 (default Vite port)
