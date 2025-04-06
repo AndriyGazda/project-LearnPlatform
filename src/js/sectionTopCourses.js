@@ -10,7 +10,7 @@ let coursesData;
 document.addEventListener('DOMContentLoaded', () => {
   const mediaQuery768 = window.matchMedia('(max-width: 768px)');
   const mediaQuery480 = window.matchMedia('(max-width: 480px)');
-  function handleMediaChange(e) {
+  function handleMediaChange() {
     if (mediaQuery480.matches) {
       courselItemsPerView = 1;
     } else if (mediaQuery768.matches) {
